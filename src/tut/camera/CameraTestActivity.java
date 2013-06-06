@@ -98,6 +98,21 @@ public class CameraTestActivity extends Activity {
                     }
                 }
             });
+            final ImageSwitcher freeze_im_sw=(ImageSwitcher)view.findViewById(R.id.freeze_im_sw);
+            freeze_im_sw.setOnClickListener(new OnClickListener() {
+                public void onClick(View v) {
+                   // freeze_im_sw.showNext();
+                  //  ++isFlash;
+                 //   if(isFlash%2==1){
+                 //       caminit.playFlash(true);
+                 //   }else{
+                  ///      caminit.playFlash(false);
+                  ////  }
+                    caminit.takePicture();
+                }
+            });
+
+
             
             alParent.addView(view);
             // Set the layout as the apps content view 

@@ -1,1 +1,4 @@
-This file was created by Android Studio (I/O Preview) AI-130.692269 for binding GitHub repository
+Add Line in your AndroidManifest.xml
+    <uses-permission android:name="android.permission.CAMERA" />
+	<uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
